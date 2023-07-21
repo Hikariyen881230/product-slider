@@ -27,3 +27,8 @@ div{
   transition: .3s ease;
   background-color: black;
 }
+@media (max-width: 768px) {
+  .arrow-button {
+    display: none;
+  }
+}

@@ -7,8 +7,8 @@ export const Card = (props: cardType) => {
   const { item } = props
 
   return (
-    <div className="rounded-2xl shadow-cardShadow w-[22rem] ">
-      <section className="relative p-5 w-full">
+    <div className="rounded-2xl shadow-cardShadow min-h-[663px]">
+      <section className="relative p-5 w-full h-[472px] xl:h-[476px]">
         <div className="font-GothamBook absolute w-content border rounded-full px-2 py-[2px] text-s text-mainGray border-mainGray font-bold">
           {item.type}
         </div>
@@ -38,7 +38,7 @@ export const Card = (props: cardType) => {
           </ul>
         </div>
       </section>
-      <section className="mt-1 p-5 bg-sectionPrice">
+      <section className="md:mt-1 p-5 bg-sectionPrice h-[203px] ">
         <div>
           <span className="font-GothamBook rounded-full px-2 py-1 text-xs bg-red-600 text-white font-bold">
             SAVE ${(item.originalPrice - item.discountPrice).toLocaleString()}
@@ -70,14 +70,14 @@ export const Card = (props: cardType) => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between shrink-0">
           <div className="flex flex-col gap-1">
             <span className="font-GothamBold text-sm font-bold">
               Free Shipping
             </span>
             <span className="text-xs">{calculateDeliveryDate(item.type)}</span>
           </div>
-          <button className="text-red-600 border border-red-600 rounded-full px-3 hover:bg-red-600 hover:text-white transition duration-300">
+          <button className="min-w-[100px] text-sm h-[40px] text-red-600 border border-red-600 rounded-full px-3 hover:bg-red-600 hover:text-white transition duration-300">
             Buy Now
           </button>
         </div>

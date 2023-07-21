@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        GothamBold: ['Gotham', 'sans-serif'],
-        GothamBook: ['Gotham', 'sans-serif'],
+        GothamBold: ['GothamBold', 'sans-serif'],
+        GothamBook: ['GothamBook', 'sans-serif'],
       },
       colors: {
         mainGray: '#929292',

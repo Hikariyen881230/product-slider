@@ -11,6 +11,18 @@ module.exports = {
         GothamBold: ['Gotham', 'sans-serif'],
         GothamBook: ['Gotham', 'sans-serif'],
       },
+      colors: {
+        mainGray: '#929292',
+      },
+      boxShadow: {
+        cardShadow: '0px 0px 20px #00000029;',
+      },
+      backgroundColor: {
+        sectionPrice: '#F2F6FA',
+      },
+      fontSize: {
+        s: '8px',
+      },
     },
   },
   plugins: [],

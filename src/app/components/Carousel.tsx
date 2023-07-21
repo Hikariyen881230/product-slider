@@ -1,4 +1,5 @@
 import React from 'react'
+import { products } from '../utils/data'
 import { carouselType } from '../types/propTypes'
 import { Card } from './Card'
 import PrevArrow from './PrevArrow'
@@ -16,7 +17,9 @@ export const Carousel = (props: carouselType) => {
         </div>
         <PrevArrow />
         <NextArrow />
-        <Card />
+        {products.map((item, index) => {
+          return <Card key={index} item={item} />
+        })}
       </div>
     </>
   )

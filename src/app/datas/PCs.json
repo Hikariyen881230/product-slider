@@ -2,7 +2,7 @@
     {
         "type":"Prebuilt PC",
         "id":"Gaming RDY SLHBG227",
-        "img":"/Gaming-RDY-SLHBG227.avif",
+        "img":"Gaming-RDY-SLHBG227.avif",
         "system":"Windows 11 Home",
         "cpu":"Intel® Core™ i7-13700KF CPU",
         "gpu":"GeForce RTX 4070 - 12GB",
@@ -15,7 +15,7 @@
     {
         "type":"Prebuilt PC",
         "id":"Gaming RDY EMRRG213",
-        "img":"/Gaming-RDY-EMRRG213.avif",
+        "img":"Gaming-RDY-EMRRG213.avif",
         "system":"Windows 11 Home",
         "cpu":"AMD Ryzen 5 7600 CPU",
         "gpu":"GeForce RTX 4060 Ti - 8GB",
@@ -28,7 +28,7 @@
     {
         "type":"Custom PC",
         "id":"Intel 13th Gen Performance Daily Deal",
-        "img":"/Intel-13th-Gen-Performance-Daily-Deal.avif",
+        "img":"Intel-13th-Gen-Performance-Daily-Deal.avif",
         "system":"Windows 11 Home",
         "cpu":"Intel® Core™ i7-13700KF CPU",
         "gpu":"GeForce RTX 4060 Ti - 8GB",
@@ -41,7 +41,7 @@
     {
         "type":"Custom PC",
         "id":"AMD Ryzen9 Ultra Gaming Daily Deal",
-        "img":"/AMD-Ryzen9-Ultra-Gaming-Daily-Deal.avif",
+        "img":"AMD-Ryzen9-Ultra-Gaming-Daily-Deal.avif",
         "system":"Windows 11 Home",
         "cpu":"AMD Ryzen™ 9 7900X3D CPU",
         "gpu":"GeForce RTX 3080 - 10GB",
@@ -54,7 +54,7 @@
     {
         "type":"Prebuilt PC",
         "id":"RDY Monochrome",
-        "img":"/RDY-Monochrome.avif",
+        "img":"RDY-Monochrome.avif",
         "system":"Windows 11 Home",
         "cpu":"Intel® Core™ i7-13700KF CPU",
         "gpu":"Gigabyte AERO GeForce RTX 4080 - 16GB",
@@ -67,7 +67,7 @@
     {
         "type":"Prebuilt PC",
         "id":"Creator RDY LCMRG210",
-        "img":"/Creator-RDY-LCMRG210.avif",
+        "img":"Creator-RDY-LCMRG210.avif",
         "system":"Windows 11 Pro",
         "cpu":"AMD Ryzen 9 7950X CPU",
         "gpu":"AMD Radeon RX 7900 XTX - 24GB",
@@ -80,7 +80,7 @@
     {
         "type":"Custom PC",
         "id":"Intel 13th Gen-Supreme Daily Deal",
-        "img":"/Intel-13th-Gen-Supreme-Daily-Deal.avif",
+        "img":"Intel-13th-Gen-Supreme-Daily-Deal.avif",
         "system":"Windows 11 Home",
         "cpu":"Intel® Core™ i9-13900KF CPU",
         "gpu":"GeForce RTX 4070 Ti - 12GB",
@@ -93,7 +93,7 @@
     {
         "type":"Custom PC",
         "id":"AMD Ryzen Pro Daily Deal",
-        "img":"/AMD-Ryzen-Pro-Daily-Deal.avif",
+        "img":"AMD-Ryzen-Pro-Daily-Deal.avif",
         "system":"Windows 11 Home",
         "cpu":"AMD Ryzen™ 7 7700X CPU",
         "gpu":"GeForce RTX 4070 Ti - 12GB",

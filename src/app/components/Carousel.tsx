@@ -1,6 +1,8 @@
 import React from 'react'
 import { carouselType } from '../types/propTypes'
 import { Card } from './Card'
+import PrevArrow from './PrevArrow'
+import NextArrow from './NextArrow'
 
 export const Carousel = (props: carouselType) => {
   return (
@@ -12,6 +14,8 @@ export const Carousel = (props: carouselType) => {
           </h2>
           <h4 className="text-xl md:text-2xl xl:text-3xl">Prebuilt & Custom</h4>
         </div>
+        <PrevArrow />
+        <NextArrow />
         <Card />
       </div>
     </>
